@@ -15,6 +15,6 @@ that precedes these events.
 number of Covid-19 cases and the number of attributed deaths in relation to the timing and location of <br>
 Trump's 2020 campaign rallies for U.S. President. The analysis assumes that the covid statistics will be <br>
 captured for each city in which a rally occured.
-> The rally schedule ('https://ballotpedia.org/Donald_Trump_presidential_campaign,_2020#Campaign_rallies') <br>
-is listed by city and New York Times Covid-19 [data:] ('https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv') <br>
+> The rally schedule @ 'https://ballotpedia.org/Donald_Trump_presidential_campaign,_2020#Campaign_rallies' <br>
+is listed by city and New York Times Covid-19 @ 'https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv' <br>
 is by county, therefore the table is joined first by looking up the county for each city, and getting the fips coded geographic boundaries.
